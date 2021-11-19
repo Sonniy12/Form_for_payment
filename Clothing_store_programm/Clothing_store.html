@@ -1,0 +1,77 @@
+<!Doctype html>
+<html lang="en">
+    <!--head-->
+    <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Заказ одежды">
+     <meta name="description" content="Оформление заказа+все размеры ">
+    <title>Clothing store</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <!--body-->
+    <body>
+        <!--header-->
+        <header><div class="div_header"><div class= "lable_header"> <h5 class="header_h5">Заказ одежды</h5></div></div> 
+          <div class="img_header"></div> <h1 class="header_h1">
+            Магазин
+        </h1>
+       
+       
+        </header>
+         <!--main-->
+        <main>
+          <h2 class="main_h2" >Оформить заказ</h2>
+          
+           <div class="form_program">
+           
+            <!--form-->
+            <form class="flex_"  id="form1" action="/" onsubmit="return fillOutForms()">
+                 <div  class="name" >
+            <label class="name_lab" for="nameUser">Имя:</label>
+            <input type="text"  id="nameUser" name="nameUser"  />
+        </div>
+        <div  class="phone"  >
+            <label class="phone_lab" for="phoneUser">Телефон:</label>
+            <input type="text" id="phoneUser" name="phoneUser" />
+        </div>
+        <div  class="card"  >
+            <label class="UserCard" for="UserCard">Номер карты:</label>
+            <input type="text"   id="UserCard" name="UserCard" >
+        </div >
+           
+            <div  class="address" >
+            <label class="address_lab" for="addressUser">Адрес:</label>
+            <input type="text"   id="addressUser" name="addressUser" >
+            </div>
+             <div class="pos_element">
+          <div class="date_">
+          <label for="date">Выбрать дату:</label>
+          <input type="date" id="date" name="date"/>
+      </div>     
+    
+           <div class="message_">
+          <label  for="message" >
+              Доп.комментарий:
+          </label>
+          <textarea name="message" id="message"></textarea>
+      </div>
+            
+             <!--button-->
+             <div  class="button" >
+           
+            <input class="button_" id="button" type="submit" value="Добавить" >
+            </div>
+            
+        
+        </div>
+            </form>
+            </div>
+            
+            
+        </main>
+        <script src="script.js"></script>
+    </body>       
+    
+ 
+    
+</html>    

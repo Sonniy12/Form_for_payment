@@ -1,0 +1,127 @@
+body{background-color: #587976;}
+/*header*/
+header{margin-left:5%;
+    margin-right: 5%;
+    width: 94%;
+    height: 300px;
+    color:#f7f7f0;
+    background-color:#8e6f54;    
+   
+}
+.header_h1{
+    padding-left: 40%;
+padding-right: 30%;
+     position: relative;
+    bottom: 320px;
+}
+.lable_header{width:40px;
+height: 40px;
+border-radius:50%;
+background-image: url(img/%D0%BB%D1%8D%D0%B9%D0%B14.jpg);
+background-size: cover;
+background-position: center;
+  
+}
+
+.header_h5{
+    padding-left: 50px;
+ 
+
+}
+.img_header{width: 100%;
+height: 270px;
+  
+    background-image:url(img/%D1%84%D0%BE%D0%BD.jpg);
+    background-size: cover;
+    background-position: center;
+       position: relative;
+    top: 15px;
+    
+    
+}
+/* main form div_form*/
+.form_program{background-image: url(img/3.jpg);
+width: 94%;
+height: 600px;
+background-position:center;
+background-size:cover;
+
+margin-left: 5%;
+    margin-top: 20px;
+ 
+}
+form{
+    padding: 2%;
+  
+
+ /*border: solid 5px #c1bec3;*/
+}
+
+.flex_{
+    padding: 7%;
+  
+
+ /*border: solid 5px #c1bec3;*/
+}
+
+/*h2 form input*/
+.main_h2{margin: auto;
+color: #f7f7f0;
+margin-top: 40px;
+margin-left: 40%;}
+
+#addressUser, #UserCard, #phoneUser, #nameUser{padding-top: 10px;
+width: 80%;
+padding-left: 10px;}
+
+/*lable form*/
+.address{margin-top: 10px;}
+
+.phone{margin-top: 10px;}
+.card{
+margin-top: 10px;}
+
+/*lable */
+label
+{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    color:#f7f7f0;
+    font-size: 18px;
+}
+
+
+/*button*/
+.button{
+	width: 30%;
+margin-top: 10px;
+    margin-left: 50%;
+  
+
+}
+
+.button_{
+	width: 100%; background-color:#587976;
+color:beige;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+border: solid 3px beige;}
+.pos_element{margin-top: 15px;}
+
+
+.message_,.date_ {margin-top:20px;
+
+   
+}
+#message{height:100px;
+width: 80%;
+margin-top: 10px;}
+textarea{vertical-align: text-top;
+margin-left: 4%}
+
+/*======*/
+/*.flex_{display: flex;
+flex-wrap: wrap;}*/
+textarea{resize: none;}
